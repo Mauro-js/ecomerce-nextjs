@@ -1,0 +1,134 @@
+/*-----CARD-----*/
+.card {
+  @apply mx-2 w-[45vw] place-content-center rounded-3xl border border-gray-200 bg-white pb-4 text-center shadow-xl md:w-[20vw] lg:mx-auto lg:h-[324px] lg:w-[200px] lg:pb-0;
+}
+
+.card-image-content {
+  @apply relative h-5/6 sm:w-full;
+}
+
+.card-image {
+  @apply h-full w-full object-cover p-4;
+}
+
+.card-text-content {
+  @apply flex flex-col items-center justify-between px-4 lg:flex-row lg:py-2;
+}
+
+.card-price {
+  @apply text-buyButton text-gray-700;
+}
+
+.card-button {
+  @apply mb-4 h-8 rounded-full bg-green-600 px-4 text-buyButton text-white transition hover:bg-green-700 sm:mb-0 lg:py-1;
+}
+
+/*------------SHOP----------------*/
+.shop-container {
+  @apply flex h-full w-full flex-col place-content-center items-center pt-16;
+}
+
+.grid-shop {
+  @apply grid grid-cols-2 gap-y-[40px] md:grid-cols-4 lg:w-[900px] lg:gap-x-6;
+}
+
+.grid-shop-container {
+  @apply mx-4 mt-4 flex h-full flex-col place-content-center items-center lg:mx-auto;
+}
+
+.shop-title {
+  @apply text-center text-subTitle font-bold text-secondary;
+}
+
+/*--------------Slide------------*/
+.slide-content {
+  @apply relative flex w-full flex-col-reverse place-content-center items-center overflow-hidden rounded-lg p-0 pb-10 shadow-md sm:flex-row sm:p-10 md:h-[600px];
+}
+
+.slide-backround {
+  @apply absolute inset-0 -z-10 h-full w-full object-cover;
+  filter: brightness(125%) grayscale(40%);
+  opacity: 98%;
+}
+
+.slide-text-content {
+  @apply z-10 w-[30vw] min-w-[300px] sm:h-[350px];
+}
+
+.slide-title {
+  @apply mb-4 text-center text-title text-primary sm:text-left;
+}
+
+.slide-text {
+  @apply mb-6 hidden text-left text-layouSize text-primary md:block;
+}
+
+.shop-now-slide {
+  @apply mx-auto mb-10 flex h-[55px] w-[240px] place-content-center items-center justify-between rounded-xl bg-green-600 px-6 py-2 text-layoutButtons font-bold text-white transition hover:bg-green-700 sm:w-full lg:mb-0 lg:min-w-[190px];
+}
+
+.take-quiz-slide {
+  @apply hidden h-[55px] w-full items-center rounded-xl px-6 py-2 text-layoutButtons font-bold transition sm:flex sm:place-content-center sm:justify-between sm:border sm:border-primary sm:text-primary sm:hover:bg-green-50 lg:min-w-[190px];
+}
+
+.sm-take-quiz-slide {
+  @apply mb-8 h-[55px] w-full rounded-xl px-6 text-center text-layoutButtons font-bold transition sm:hidden;
+}
+
+.slide-image-content {
+  @apply relative z-10 mt-4 flex h-[300px] w-[300px] flex-col sm:ml-[5vw] sm:mt-[-10vw] sm:h-[clamp(250px,30vw,500px)] sm:w-[clamp(250px,23vw,500px)] sm:min-w-[250px] md:ml-[10vw] md:mt-0 lg:mt-0;
+}
+
+.image-slide {
+  @apply h-full w-full rounded-lg object-cover shadow-md;
+}
+
+/*----------------- MENU -------------------------*/
+
+.menu-content {
+  @apply relative z-50 flex min-h-[75px] w-full items-center justify-between text-primary shadow-sm sm:justify-center;
+}
+
+.hamburger-icon {
+  @apply pl-4 focus:outline-none sm:hidden
+}
+
+.principal-menu {
+  @apply mx-auto hidden sm:block;
+}
+
+.sm-menu {
+  @apply absolute top-[60px] z-50 w-full space-y-2 rounded-lg bg-white px-4 py-4 shadow-lg sm:hidden;
+}
+
+.modal-shop {
+  @apply bg-black flex items-center justify-center absolute;
+  top: 50%;
+  right: 35vw;
+  z-index: 5;
+}
+
+
+/*---------------------- Modal -----------------------*/
+
+.delete-button {
+  @apply mb-4 ml-36 h-8 rounded-full bg-red-400 px-4 text-buyButton text-white transition hover:bg-red-700 sm:mb-0 lg:py-1;
+}
+
+.close-button {
+  @apply mb-4 h-8 mt-10 rounded-full bg-green-600 px-4 text-buyButton text-white transition hover:bg-green-700 sm:mb-0 lg:py-1;
+}
+
+.list-shop {
+  @apply mt-2 w-full justify-between flex flex-col;
+  flex-direction: column;
+}
+
+.list-shop-child {
+  @apply flex items-center justify-between mt-1 mb-2;
+}
+
+.footer-modal {
+  @apply flex flex-col place-content-center mt-10;
+  flex-direction: column;
+}

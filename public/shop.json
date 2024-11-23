@@ -1,0 +1,81 @@
+[
+  [
+    {
+      "name": "Producto 1",
+      "image": "/image_37.png",
+      "price": 176.98
+    },
+    {
+      "name": "Producto 2",
+      "image": "/image_38.png",
+      "price": 126.98
+    },
+    {
+      "name": "Producto 3",
+      "image": "/image_39.png",
+      "price": 136.98
+    },
+    {
+      "name": "Producto 4",
+      "image": "/image_40.png",
+      "price": 146.98
+    },
+    {
+      "name": "Producto 5",
+      "image": "/image_37.png",
+      "price": 156.98
+    },
+    {
+      "name": "Producto 6",
+      "image": "/image_38.png",
+      "price": 166.98
+    },
+    {
+      "name": "Producto 7",
+      "image": "/image_39.png",
+      "price": 176.98
+    },
+    {
+      "name": "Producto 8",
+      "image": "/image_38.png",
+      "price": 166.98
+    }
+  ],
+  [
+    {
+      "name": "Producto 9",
+      "image": "/image_37.png",
+      "price": 523.13
+    },
+    {
+      "name": "Producto 10",
+      "image": "/image_38.png",
+      "price": 425.53
+    },
+    {
+      "name": "Producto 11",
+      "image": "/image_39.png",
+      "price": 434.13
+    },
+    {
+      "name": "Producto 12",
+      "image": "/image_40.png",
+      "price": 123.76
+    },
+    {
+      "name": "Producto 13",
+      "image": "/image_37.png",
+      "price": 234.53
+    },
+    {
+      "name": "Producto 14",
+      "image": "/image_38.png",
+      "price": 644.12
+    },
+    {
+      "name": "Producto 15",
+      "image": "/image_39.png",
+      "price": 123.64
+    }
+  ]
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Lorem ipsum dolor sit amet",
+    "text": "Nunc porttitor tortor metus, nec sagittis lectus accumsan quis. Aenean euismod mollis tempor.",
+    "image": "/image_41.png"
+  },
+  {
+    "title": "Proin eu purus congue nunc.",
+    "text": "Nulla val porta libero. Aenean molis dapibus iaculis Nullam quam arcu. efficltur eu. Vivamus.",
+    "image": "/slide1.png"
+  },
+  {
+    "title": "Quae explicabo necessitatibus",
+    "text": "Isze obcaacati corporis ularn quasi. Autem perferendis odio laudantium, nesclint itaque hic. ",
+    "image": "/slide2.png"
+  },
+  {
+    "title": "Donec quis lectus odio ",
+    "text": "Ut sed nulla lorem. Vivamus eget sollicitudin justo. Ut ut dui vitae massa egestas ",
+    "image": "/slide3.png"
+  }
+]
