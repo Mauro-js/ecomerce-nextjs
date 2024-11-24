@@ -1,6 +1,5 @@
 import "./globals.css";
 import "./talwind.css";
-import "./animations.css";
 import { Inter } from "next/font/google";
 import ContextLayout from "./layoutContex";
 import { CartProvider } from "@/contexts/CartContext";
