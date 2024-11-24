@@ -23,7 +23,7 @@ export const GridShop = () => {
   }
 
   const list = Object.keys(shop).map((_, index) => (
-    <SwiperSlide key={`SecondSlide${Math.random()}`} className={`fade-in`}>
+    <SwiperSlide key={`SecondSlide${Math.random()}`} >
       <div className="grid-shop-container">
         <div className="grid-shop">
           {shop[index].map((item) => (

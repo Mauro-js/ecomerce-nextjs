@@ -33,8 +33,8 @@
 }
 
 .fade-in {
-  -webkit-animation: fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  -webkit-animation: fade-in 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 @-webkit-keyframes fade-in {
@@ -55,8 +55,8 @@
 }
 
 .text-focus-in {
-  -webkit-animation: text-focus-in 0.5s ease-out alternate both;
-  animation: text-focus-in 0.5s ease-out alternate both;
+  -webkit-animation: text-focus-in 0.2s ease-out alternate both;
+  animation: text-focus-in 0.2s ease-out alternate both;
 }
 
 @-webkit-keyframes text-focus-in {
@@ -85,9 +85,9 @@
 }
 
 .flip-in-ver-right {
-  -webkit-animation: flip-in-ver-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+  -webkit-animation: flip-in-ver-right 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
-  animation: flip-in-ver-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: flip-in-ver-right 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 @-webkit-keyframes flip-in-ver-right {
