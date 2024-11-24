@@ -44,7 +44,7 @@ export const ModalProvider = ({ children }) => {
                         {cart.map((item) => 
                         <div key={item.name} className="list-shop-child">
                             {item.name} - ${item.price} x {item.count} 
-                            <button className="delete-button" onClick={() => deletToCart(item)}>
+                            <button aria-label="delete" className="delete-button" onClick={() => deletToCart(item)}>
                                 <Image alt="trash-icon" src={trash} width={16} height={16} />
                             </button>
                         </div>)}
@@ -54,6 +54,7 @@ export const ModalProvider = ({ children }) => {
                 <div className="footer-modal">
                     {cart.length != 0 ? <>Total {(Math.trunc(cart.reduce((acc, item) => acc + item.price * item.count, 0)*100)/100).toFixed(2)} </>: "" }
                     <button
+                    aria-label="close"
                     className="close-button w-48"
                     onClick={() => setIsOpen(false)}
                     >

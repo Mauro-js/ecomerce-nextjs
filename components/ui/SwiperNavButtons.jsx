@@ -26,6 +26,7 @@ export const SwiperNavButton = ({ marignTop = true, autoSlide = false }) => {
       }
     >
       <button
+        aria-label="last"
         onClick={() => swiper.slidePrev()}
         className="svg-white svg-white flex h-10 w-16 items-center justify-center rounded-full border-2 border-primary hover:bg-primary"
       >
@@ -43,6 +44,7 @@ export const SwiperNavButton = ({ marignTop = true, autoSlide = false }) => {
         </svg>
       </button>
       <button
+        aria-label="next"
         onClick={() => swiper.slideNext()}
         className="svg-white hover:svg-white flex h-10 w-16 items-center justify-center rounded-full border-2 border-primary hover:bg-primary"
       >

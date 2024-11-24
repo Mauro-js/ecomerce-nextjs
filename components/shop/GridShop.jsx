@@ -39,7 +39,7 @@ export const GridShop = () => {
               </div>
               <div className="card-text-content">
                 <span className="card-price">${item.price}</span>
-                <button className="card-button" onClick={() => addToCart(item)}>BUY NOW</button>
+                <button aria-label="Buy Now" className="card-button" onClick={() => addToCart(item)}>BUY NOW</button>
               </div>
             </div>
           ))}

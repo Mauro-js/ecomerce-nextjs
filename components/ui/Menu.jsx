@@ -23,6 +23,7 @@ export default function Menu() {
   return (
     <menu className="menu-content">
       <button
+        aria-label="menu"
         onClick={() => setIsOpen(!isOpen)}
         className="hamburger-icon"
       >
